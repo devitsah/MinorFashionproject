@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: serif;
+    }
+    html,body{
+        width: 100%;
+        height:100%;
+    }
+    .main{
+        width: 100%;
+        height:100%;
+        background-color: #ededed;  
+        position: relative;
+        padding-top: 0.1px;
+    }
+    #navbar{
+    
+        width: 100%;
+        height: 10vh;
+        margin-top: 40px;
+        display:flex;
+       border-top:2px solid#000 ;
+       border-bottom:2px solid#000;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #navbar h2{
+    
+     width:20%;
+     height: 100%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     border-right:2px solid black;
+     font-size: 20px;
+     font-weight: 500;
+    }
+    #navbar h1{
+        width:20%;
+     height: 100%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     font-family:Impact, Haettenschweiler, 'Arial', sans-serif;
+     font-weight:bold;
+      }
+      #navbar h2:nth-last-child(2){
+        width:29%;
+      }
+      #navbar h2:nth-last-child(1){
+        width:10%;
+      }
+      .center{
+       
+        height:90%;
+        width:100%;
+        padding:5vh;
+        position:relative;
+      }
+      #content{
+        width:100%;
+        height:100%;
+        position:relative;
+      }
+
+      #content video{
+        width:100%;
+        height:88%;
+        object-fit:cover;
+      }
+      #overlay{
+        width:100%;
+        height:52%; 
+        position:absolute;
+        bottom:0;
+        padding:5vh;
+        color: #fff;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      #over1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+      }
+      #over1 h1{
+        font-family: Impact, Haettenschweiler, 'Arial ', sans-serif;
+        font-weight: 100;
+        font-size: 4vw;
+      }
+      #over1 h2{
+        font-size: 1vw;
+        padding:2vw 2.4vw;
+        border-radius: 50%;
+        border: 2px solid #fff;
+      }
+      #over2{
+        font-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        border-top: 2px solid #fff;
+        
+      }
+      #over2 img{
+        height:4.5vw;
+
+      }
+      .scroll{
+        
+        height: 36vh;
+        width:100%;
+        white-space: nowrap;
+       overflow-x: hidden;
+        overflow-y:hidden;
+        padding: 2vw;
+      }
+      #container{
+        height:100%;
+        width:110%;
+       
+        display:inline-block;
+        animation-name: anime;
+        animation-duration:8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    
+
+      }
+
+      .scroll img{
+        height:90%;
+        border-radius: 50%;
+        width: 14%;
+        object-fit: cover;
+        object-position:top;
+        margin: 2.5vw;
+        object-position: 40% 40%;
+        
+      }
+      @keyframes anime {
+        from{
+          transform: translatex(0%);
+        }
+        to{
+          transform: translatex(-100%);
+        }
+      }
+      #alphabet{
+        height: 10vh;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:1vw;
+        border-top:2px solid #000;
+        border-bottom:2px solid #000;
+      }
+      #alphabet h5{
+        
+        font-size: 2vw;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-style: italic;
+        border-bottom:2px solid black;
+        letter-spacing: 4px;
+        margin-right: 2vw;
+      }
+      #alphabet h6{
+
+        font-size: 1vw;
+        font-weight: 100;
+        font-style: italic;
+        letter-spacing: 3px;
+        padding: 0.5vw 0.7vw;
+        border-radius:50%;
+        border: 1px solid #00000000;
+        cursor: pointer;
+        transition: all ease 1s;
+      }
+      #alphabet h6:hover{
+        border: 1px solid #000;
+
+      }
+      #page2{
+        height:100%;
+        width:100%;
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+       padding: 5vw;
+      }
+      #pagepart1{
+        height:110%;
+        width: 45%;
+        
+        background-image:url(https://images.unsplash.com/photo-1568252748074-f9c8d964e834?q=80&w=3104&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size:cover;
+        
+        padding: 5vw;
+        
+        
+      }
+      #pagepart2{
+       
+       height: 110%;
+       width:45%;
+      
+      }
+      #pagepart2 img{
+        height:100%;
+        width:90%;
+        background-image: cover;
+     
+     
+      }
+      #content1{
+       height: 10%;
+       width:20%;
+       margin-left:40%;
+       margin-bottom: 5%;
+       
+      }
+      #content1 h1{
+        text-align:center;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+        
+      }
+      
+       
+      
+      
+     
+    
